@@ -1,4 +1,4 @@
-# 🚀 CSI-Assignment 4: Express Advanced Server
+# 🚀 CSI-Assignment 4: Express Web Server
 
 A modular and professional-grade **Express.js web server** with clean routing, middleware, form handling, and multiple API endpoints. Built to demonstrate **industry-level backend architecture** and stand out in competitive internship assignments.
 
@@ -68,12 +68,13 @@ npm install
 npm start
 ```
 4️⃣ Access in Browser
+```bash
 🔹 http://localhost:3000
 
 🔹 http://localhost:3000/api/about
 
 🔹 http://localhost:3000/api/contact
-
+```
 ⚙️ Environment Variables
 Create a .env file in the root:
 ```
