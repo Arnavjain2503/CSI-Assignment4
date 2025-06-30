@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Express Advanced Server</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 40px;
+      background: #f4f4f4;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 { color: #333; }
+    button, input {
+      padding: 10px;
+      margin: 5px 0;
+      display: block;
+      width: 100%;
+      max-width: 400px;
+    }
+    form {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Express Advanced Server</h1>
+
+  <!-- Route navigation -->
+  <a href="/api/about"><button>Go to /api/about</button></a>
+  <a href="/api/contact"><button>Go to /api/contact</button></a>
+
+  <h3>Submit Data (POST to /api/submit)</h3>
+  <form action="/api/submit" method="POST">
+    <input name="name" placeholder="Enter name" required />
+    <input name="email" type="email" placeholder="Enter email" required />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
