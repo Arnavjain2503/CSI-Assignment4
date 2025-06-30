@@ -5,7 +5,7 @@ A modular and professional-grade **Express.js web server** with clean routing, m
 ---
 
 ## 📁 Project Structure
-
+```
 Web-Server/
 ├── index.js # Main server entry point
 ├── .env # Environment variables
@@ -17,10 +17,7 @@ Web-Server/
 ├── middleware/
 │ ├── logger.js # Request logger middleware
 │ └── errorHandler.js # Centralized error handler
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -61,16 +58,15 @@ Visit [`/`](http://localhost:3000) to:
 ```bash
 git clone https://github.com/your-username/express-advanced-server.git
 cd express-advanced-server
+```
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+```bash
 npm install
+```
 3️⃣ Run the Server
-bash
-Copy
-Edit
+```bash
 npm start
+```
 4️⃣ Access in Browser
 🔹 http://localhost:3000
 
@@ -80,20 +76,7 @@ npm start
 
 ⚙️ Environment Variables
 Create a .env file in the root:
-
-env
-Copy
-Edit
+```
 PORT=3000
-APP_NAME=ExpressAdvancedApp
-🛠️ Tech Stack
-Node.js
-
-Express.js
-
-HTML/CSS
-
-dotenv
-
-Modular JavaScript Structure
-
+APP_NAME=ExpressWebApp
+```
